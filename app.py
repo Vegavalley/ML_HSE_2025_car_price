@@ -239,7 +239,7 @@ owner, mileage, engine, max_power, seats, torque
                 
                 for bar, price in zip(bars, cat_means.values):
                     ax.text(bar.get_x() + bar.get_width()/2, bar.get_height(),
-                           f'₹{price:,.0f}', ha='center', va='bottom', fontsize=8)
+                           f'{price:,.0f}', ha='center', va='bottom', fontsize=8)
                 
                 st.pyplot(fig)
             
